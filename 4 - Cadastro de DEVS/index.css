@@ -1,0 +1,36 @@
+#principal {
+    background: rgba( 248, 242, 242, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+    background-color:beige
+}
+
+#xButton {
+    background-color: rgba(255, 0, 0, 0.692);
+    margin-left: 10px;
+    height: 24px;
+}
+
+#alterButton{
+    margin-left: 420px;
+    height: 24px;
+    background-color: green;
+}
+
+
+#yButton{
+    margin-top: 20px;
+}

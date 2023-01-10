@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <title>Jogo da velha  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js" defer></script>
+</head>
+<body onload="Start()">
+  <main data-theme="dark">
+    <header class="flex align-center justify-between">
+      <h1>Jogo da velha</h1>
+      <button id="themeSwitcher">Switch Theme Dark/Light</button>
+    </header>
+    <div id="keys">
+      <button class="charKey" id="pos1"></button>
+      <button class="charKey" id="pos2"></button>
+      <button class="charKey" id="pos3"></button>
+      <br>
+      <button class="charKey" id="pos4"></button>
+      <button class="charKey" id="pos5"></button>
+      <button class="charKey" id="pos6"></button>
+      <br>
+      <button class="charKey" id="pos7"></button>
+      <button class="charKey" id="pos8"></button>
+      <button class="charKey" id="pos9"></button>
+    </div>
+    <section class="flex align-center justify-between" id="divPlayAgain">
+      <button id="playAgainBtn">Jogar novamente</button>
+      <input type="text" id="result" disabled>
+    </section>
+  </main>
+</body>
+</html>
